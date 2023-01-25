@@ -6,12 +6,11 @@
   "scripts": {
     "dev": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /parcel-bundle2/",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "json-server --watch db.json"
   },
   "author": "Yurii Khomik <yu.hamster.pl@gmail.com> (https://github.com/YuriiKhomik)",
   "license": "ISC",
-  "devDependencies": {
-    "@parcel/transformer-sass": "^2.8.2",
-    "parcel": "^2.8.2"
-  }
+  "devDe l/transformer-sass": "^2.8.2",
+  "json-server": "^0.17.1",
+  "parcel": "^2.8.2"
 }
